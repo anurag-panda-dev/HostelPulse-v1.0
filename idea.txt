@@ -1,0 +1,80 @@
+HOSTEL APPLICATION
+
+i want to create a hostel application where students can sign in to interact. also admin(warden) can manage. and all the guard and staff can sign in for providing facilities. 
+
+for students: {
+after sign in they can see their room details with room mates with block and floor no. with a profile to view their details that is uploaded by warden(admin).
+
+with options for payment of hostel (with all dues and a payment gateway)
+
+leave request{; where student can file request for leave with uploading photo of confimation email or leave form. field has Name, address, hostel name, room no, year, semester, registration number, phone number (self), type of leave, extra details if any, place of visit, parent phone no, leave from date to date, upload file for confirmation from mentor.}
+
+room setting (grievence portal) {
+
+related to (housekeeping)
+priority (high, medium, low)
+catagory (electrical, cleaning, plumbing, carpentry, connectivity, electronics, food, safety, emergency issues)
+sub catagory (of each catagory. suggest)
+Description
+Image upload
+submit
+}
+
+message to frontdesk (message system to talk to warden in chat)
+
+request to change room {
+title
+related to frontdesk
+priority
+description
+submit
+}
+
+QR attendance (will state the feature process later)
+
+}
+
+
+warden {
+
+entry details of students with necessary documents (aadhaar card, driving license, pan card, bank details etc.)
+
+frontdesk (any message on frontdesk will come and warden will reply
+
+monitoring the grievence requests.
+
+approval of leave requests.
+
+verification of payment and generation of payment receipt and sent to student by mail and also on the application
+
+assignment of room change to hostelites or, work to the staff 
+
+}
+
+staff {
+
+any assigned work
+
+}
+
+guard {
+
+showing all the leave request approved and monitoring.
+
+taking QR Attendance (process state later)
+
+}
+
+
+
+QR Attendance {
+
+guard choose the block and year (semester) -> A custom QR will generate on the given timeframe on the app (first year -> 7:30pm to 9:00pm; second year -> 7:30pm to 10:00pm;) -> student will scan the QR from the application -> after scanning a request will send to the server -> attendance marked -> confirmation to both guard and student with name and room no. -> guard can later check any student is missing or not -> also create any late entry QR -> if students will cheat to send the QR; then there will be always an active monitoring system that will detect location of the guard's phone through mac address or ip address and matching with student's location (if both match with a distance of 2 meters , then only the attendance will mark.
+
+same thing apply to the time of leave of students (guard chooses leave option not the night attendance section)
+
+}
+
+notification of any events also shown on each profile (student, guard, staff)
+
+
